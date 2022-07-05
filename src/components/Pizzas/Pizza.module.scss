@@ -1,0 +1,83 @@
+.meu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+
+.menu {
+    animation: alternate;
+    position: relative;
+    left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 480px;
+    justify-content: space-between;
+    :focus{
+        transition: 0.2s;
+        background-color: #ffff;
+        transform: scale(1s);
+        border-radius: 15px;
+        
+    }
+    img {
+        width: 250px;
+        display: grid;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
+
+    h3 {
+        position: relative;
+        top: -6.5rem;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.01em;
+       
+    }
+
+    .flex {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        margin-top: -12.25rem;
+
+
+        h5 {
+            padding-left: 2.25rem;
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 27px;
+        }
+
+    }
+}
+
+.button {
+    position: relative;
+    left: 30px;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    width: 190px;
+    margin-top: 2rem;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    line-height: 22px;
+
+    button {
+        border-color: aliceblue;
+        border: none;
+        padding: 0px 9px;
+        cursor: pointer;
+    }
+}
